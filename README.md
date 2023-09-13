@@ -1,7 +1,13 @@
-# Repair-QA
+# Repair-QA: No That's Not What I Meant: Handling Third Position Repair in Conversational Question Answering
 
+![Alana AI](https://alanaai.com/wp-content/uploads/2020/08/ALANA_PURPLE.png)
+
+![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)
+
+This repo contains the dataset and implementation for the paper: <strong>No That's Not What I Meant: Handling Third Position Repair in Conversational Question Answering.</strong> [Vevake Balaraman](https://scholar.google.com/citations?user=GTtAXeIAAAAJ), [Arash Eshghi](https://scholar.google.com/citations?user=yCku-o8AAAAJ), [Ioannis Konstas](https://scholar.google.com/citations?user=FAJSqSkjAoIC) and [Ioannis Papaioannou](https://scholar.google.com/citations?user=gC0w0PIAAAAJ). [<strong>SIGdial 2023</strong>](https://sigdialinlg2023.github.io/index.html). [PDF](https://sigdialinlg2023.github.io/static/papers/sigdial/59_Paper.pdf)
 
 ## Dataset
+The dataset can be found ```data``` folder
 
 
 ## Packages
@@ -31,7 +37,3 @@ Note: The input file should consists of a list of dictionaries with each item co
     ```
     python src/compute_metrics.py <prediction_file>
     ```
-
-## Serve the model as a service
-
-## Results
